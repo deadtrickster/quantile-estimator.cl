@@ -5,6 +5,17 @@ Computation of Biased Quantiles over Data Streams][1] in ICDE’05.
 
 Based on [Ruby Implementation][2].
 
+```lisp
+(let ((estimator (make-estimator)))
+  (estimator.observe estimator 0.8)
+  (estimator.observe estimator 0.4)
+  (estimator.observe estimator 0.9)
+  (estimator.observe estimator 0.6)
+
+  (is (estimator.query estimator 0.5) 0.6)
+  (is (estimator.query estimator 0.9) 0.8)
+  (is (estimator.query estimator 0.99) 0.8))
+```
 
 ## License
 MIT
