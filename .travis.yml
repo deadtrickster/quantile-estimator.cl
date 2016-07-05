@@ -20,4 +20,4 @@ install:
 #      - $HOME/.config/common-lisp
 
 script:
-  - run-prove ia-hash-table.test.asd
+  - run-prove quantile-estimator.test.asd
