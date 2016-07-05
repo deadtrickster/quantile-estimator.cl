@@ -1,4 +1,4 @@
-## Quantile estimator for streams
+## Quantile estimator for streams [![Build Status](https://travis-ci.org/deadtrickster/quantile-estimator.cl.svg?branch=master)](https://travis-ci.org/deadtrickster/quantile-estimator.cl)
 
 Common Lisp Implementation of Graham Cormode and S. Muthukrishnan's [Effective
 Computation of Biased Quantiles over Data Streams][1] in ICDE’05.
